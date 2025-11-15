@@ -1,0 +1,2453 @@
+[00:00:00.674] Server  LOG      ✓ Ready in 510ms
+[00:00:01.767] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.552] Browser WARN    Image with src "data:image/svg+xml;base64,data:image/svg+xml;base64,PHN2ZyBzdHlsZT0iZmlsbDpub25lOyIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDR2MiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDE4djIiLz48cGF0aCBzdHJva2U9IiMwMDAiIGQ9Ik0zLjUgMy41TDQuOSA1Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRo+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDIySDEyIi8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNNSA0LjkgMy41IDMuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE5LjEgNC45IDIwLjUgMy41Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMiAxMmgydiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDEyaDJ2MiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjQiIHN0cm9rZT0iIzAwMCIvPjwvc3ZnPg==" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:03.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.934] Browser WARN    Image with src "data:image/svg+xml;base64,data:image/svg+xml;base64,PHN2ZyBzdHlsZT0iZmlsbDpub25lOyIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDR2MiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDE4djIiLz48cGF0aCBzdHJva2U9IiMwMDAiIGQ9Ik0zLjUgMy41TDQuOSA1Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRo+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDIySDEyIi8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNNSA0LjkgMy41IDMuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE5LjEgNC45IDIwLjUgMy41Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMiAxMmgydiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDEyaDJ2MiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjQiIHN0cm9rZT0iIzAwMCIvPjwvc3ZnPg==" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.679] Server  LOG      ✓ Compiled in 12ms
+[00:00:49.466] Server  LOG      ✓ Compiled in 17ms
+[00:00:50.550] Browser ERROR   ./src/app/page.tsx:28:20
+Parsing ecmascript source code failed
+  26 |           >
+  27 |              
+> 28 |             </span>
+     |                    ^
+> 29 |           </button>
+     | ^^^^^^^^^^^
+  30 |         </div>
+  31 |       )}
+  32 |
+
+Expected '</', got 'jsx text (
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:00:50.551] Browser ERROR   ./src/app/page.tsx:28:20
+Parsing ecmascript source code failed
+  26 |           >
+  27 |              
+> 28 |             </span>
+     |                    ^
+> 29 |           </button>
+     | ^^^^^^^^^^^
+  30 |         </div>
+  31 |       )}
+  32 |
+
+Expected '</', got 'jsx text (
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:00:53.029] Server  LOG      ✓ Compiled in 21ms
+[00:00:53.549] Browser ERROR   ./src/app/page.tsx:16:13
+Parsing ecmascript source code failed
+  14 |
+  15 |       {/* Selve siden/innholdet */}
+> 16 |       <main className="min-h-screen flex flex-col items-center ">
+     |             ^^^^^^^^^
+  17 |         <div className="flex w-full items-center justify-end p-5">
+  18 |           <ThemeSwitch />
+  19 |         </div>
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:00:53.550] Browser ERROR   ./src/app/page.tsx:16:13
+Parsing ecmascript source code failed
+  14 |
+  15 |       {/* Selve siden/innholdet */}
+> 16 |       <main className="min-h-screen flex flex-col items-center ">
+     |             ^^^^^^^^^
+  17 |         <div className="flex w-full items-center justify-end p-5">
+  18 |           <ThemeSwitch />
+  19 |         </div>
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:00:58.795] Server  LOG      ✓ Compiled in 12ms
+[00:00:59.549] Browser ERROR   ./src/app/page.tsx:28:20
+Parsing ecmascript source code failed
+  26 |           >
+  27 |              
+> 28 |             </span>
+     |                    ^
+> 29 |           </button>
+     | ^^^^^^^^^^^
+  30 |         </div>
+  31 |       )}
+  32 |
+
+Expected '</', got 'jsx text (
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:00:59.551] Browser ERROR   ./src/app/page.tsx:28:20
+Parsing ecmascript source code failed
+  26 |           >
+  27 |              
+> 28 |             </span>
+     |                    ^
+> 29 |           </button>
+     | ^^^^^^^^^^^
+  30 |         </div>
+  31 |       )}
+  32 |
+
+Expected '</', got 'jsx text (
+          )'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:01:04.876] Server  LOG      ✓ Compiled in 20ms
+[00:01:05.549] Browser ERROR   ./src/app/page.tsx:15:8
+Parsing ecmascript source code failed
+  13 |     <div className="min-h-screen">
+  14 |     
+> 15 |       )}
+     |        ^
+  16 |
+  17 |       {/* Selve siden/innholdet */}
+  18 |       <main className="min-h-screen flex flex-col items-center ">
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:01:05.550] Browser ERROR   ./src/app/page.tsx:15:8
+Parsing ecmascript source code failed
+  13 |     <div className="min-h-screen">
+  14 |     
+> 15 |       )}
+     |        ^
+  16 |
+  17 |       {/* Selve siden/innholdet */}
+  18 |       <main className="min-h-screen flex flex-col items-center ">
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:01:06.743] Server  LOG      ✓ Compiled in 7ms
+[00:01:07.549] Browser ERROR   ./src/app/page.tsx:12:10
+Parsing ecmascript source code failed
+  10 |   const [opened, setOpened] = useState(false);
+  11 |
+> 12 |   return (
+     |          ^
+> 13 |     
+     | ^^^^
+> 14 |       )}
+     | ^^^^^^^^
+  15 |
+  16 |       {/* Selve siden/innholdet */}
+  17 |       <main className="min-h-screen flex flex-col items-center ">
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:01:07.550] Browser ERROR   ./src/app/page.tsx:12:10
+Parsing ecmascript source code failed
+  10 |   const [opened, setOpened] = useState(false);
+  11 |
+> 12 |   return (
+     |          ^
+> 13 |     
+     | ^^^^
+> 14 |       )}
+     | ^^^^^^^^
+  15 |
+  16 |       {/* Selve siden/innholdet */}
+  17 |       <main className="min-h-screen flex flex-col items-center ">
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:01:07.976] Server  LOG      ✓ Compiled in 16ms
+[00:01:08.549] Browser ERROR   ./src/app/page.tsx:17:13
+Parsing ecmascript source code failed
+  15 |
+  16 |       {/* Selve siden/innholdet */}
+> 17 |       <main className="min-h-screen flex flex-col items-center ">
+     |             ^^^^^^^^^
+  18 |         <div className="flex w-full items-center justify-end p-5">
+  19 |           <ThemeSwitch />
+  20 |         </div>
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:01:08.549] Browser ERROR   ./src/app/page.tsx:17:13
+Parsing ecmascript source code failed
+  15 |
+  16 |       {/* Selve siden/innholdet */}
+> 17 |       <main className="min-h-screen flex flex-col items-center ">
+     |             ^^^^^^^^^
+  18 |         <div className="flex w-full items-center justify-end p-5">
+  19 |           <ThemeSwitch />
+  20 |         </div>
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:01:10.549] Browser ERROR   ./src/app/page.tsx:17:13
+Parsing ecmascript source code failed
+  15 |
+  16 |       {/* Selve siden/innholdet */}
+> 17 |       <main className="min-h-screen flex flex-col items-center ">
+     |             ^^^^^^^^^
+  18 |         <div className="flex w-full items-center justify-end p-5">
+  19 |           <ThemeSwitch />
+  20 |         </div>
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:01:10.550] Browser ERROR   ./src/app/page.tsx:17:13
+Parsing ecmascript source code failed
+  15 |
+  16 |       {/* Selve siden/innholdet */}
+> 17 |       <main className="min-h-screen flex flex-col items-center ">
+     |             ^^^^^^^^^
+  18 |         <div className="flex w-full items-center justify-end p-5">
+  19 |           <ThemeSwitch />
+  20 |         </div>
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:01:17.336] Server  LOG      ✓ Compiled in 18ms
+[00:01:17.549] Browser ERROR   ./src/app/page.tsx:34:6
+Parsing ecmascript source code failed
+  32 |         <Footer />
+  33 |       </main>
+> 34 |     </div>
+     |      ^^^^^
+  35 |         <Footer />
+  36 |       </main>
+  37 |   );
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:01:17.550] Browser ERROR   ./src/app/page.tsx:34:6
+Parsing ecmascript source code failed
+  32 |         <Footer />
+  33 |       </main>
+> 34 |     </div>
+     |      ^^^^^
+  35 |         <Footer />
+  36 |       </main>
+  37 |   );
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:02:05.433] Server  LOG      ✓ Compiled in 11ms
+[00:02:55.628] Server  LOG      ✓ Compiled in 25ms
+[00:05:34.582] Server  LOG      ✓ Compiled in 220ms
+[00:06:19.333] Server  LOG      ✓ Compiled in 19ms
+[00:08:20.137] Server  LOG      ✓ Compiled in 27ms
+[00:08:21.328] Server  LOG      ✓ Compiled in 7ms
+[00:08:25.383] Server  LOG      ✓ Compiled in 15ms
+[00:08:32.781] Server  LOG      ✓ Compiled in 21ms
+[00:08:34.662] Server  LOG      ✓ Compiled in 18ms
+[00:09:02.704] Server  LOG      ✓ Compiled in 11ms
+[00:09:03.785] Server  LOG      ✓ Compiled in 7ms
+[00:09:09.878] Server  LOG      ✓ Compiled in 11ms
+[00:09:14.620] Server  LOG      ✓ Compiled in 20ms
+[00:09:28.618] Server  LOG      ✓ Compiled in 19ms
+[00:09:48.786] Server  LOG      ✓ Compiled in 17ms
+[00:09:50.022] Server  LOG      ✓ Compiled in 16ms
+[00:10:22.875] Server  LOG      ✓ Compiled in 15ms
+[00:10:23.550] Browser ERROR   ./src/app/components/Header.tsx:9:13
+Parsing ecmascript source code failed
+   7 |
+   8 |     <p>header</p>
+>  9 |     <header className="relative flex flex-col w-full">
+     |             ^^^^^^^^^
+  10 |       {/* Dager igjen til jul */}
+  11 |       <div className="absolute left-5 -mt-10 ">
+  12 |         <h1 className="text-xs sm:text-sm font-semibold opacity-80 font-serif">
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:10:23.551] Browser ERROR   ./src/app/components/Header.tsx:9:13
+Parsing ecmascript source code failed
+   7 |
+   8 |     <p>header</p>
+>  9 |     <header className="relative flex flex-col w-full">
+     |             ^^^^^^^^^
+  10 |       {/* Dager igjen til jul */}
+  11 |       <div className="absolute left-5 -mt-10 ">
+  12 |         <h1 className="text-xs sm:text-sm font-semibold opacity-80 font-serif">
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:10:37.300] Server  LOG      ✓ Compiled in 12ms
+[00:10:37.549] Browser ERROR   ./src/app/components/Header.tsx:6:10
+Parsing ecmascript source code failed
+   4 |
+   5 |
+>  6 |   return (
+     |          ^
+>  7 |
+     | ^
+>  8 |
+     | ^
+>  9 |   );
+     | ^^^^
+  10 | }
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:10:37.549] Browser ERROR   ./src/app/components/Header.tsx:6:10
+Parsing ecmascript source code failed
+   4 |
+   5 |
+>  6 |   return (
+     |          ^
+>  7 |
+     | ^
+>  8 |
+     | ^
+>  9 |   );
+     | ^^^^
+  10 | }
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:10:54.186] Server  LOG      ✓ Compiled in 13ms
+[00:10:56.614] Server  LOG      ✓ Compiled in 14ms
+[00:10:57.550] Browser ERROR   ./src/app/components/Header.tsx:6:10
+Parsing ecmascript source code failed
+   4 |
+   5 |
+>  6 |   return (
+     |          ^
+>  7 |
+     | ^
+>  8 |
+     | ^
+>  9 |   );
+     | ^^^^
+  10 | }
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:10:57.551] Browser ERROR   ./src/app/components/Header.tsx:6:10
+Parsing ecmascript source code failed
+   4 |
+   5 |
+>  6 |   return (
+     |          ^
+>  7 |
+     | ^
+>  8 |
+     | ^
+>  9 |   );
+     | ^^^^
+  10 | }
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:11:15.060] Server  LOG      ✓ Compiled in 21ms
+[00:11:49.394] Server  LOG      ✓ Compiled in 7ms
+[00:11:49.549] Browser ERROR   ./src/app/components/Header.tsx:8:21
+Parsing ecmascript source code failed
+   6 |   return (
+   7 |     <header className="sticky top-0 w-full bg-transparent backdrop-blur-sm py-4 px-6 flex justify-between items-center z-50">
+>  8 |       <h1 className=text-xl font-semibold">Website</h1>
+     |                     ^^^^
+   9 |       <nav className="flex gap-6">
+  10 |         <a href="#" className="text-white hover:opacity-80 transition">Home</a>
+  11 |         <a href="#" className="text-white hover:opacity-80 transition">About</a>
+
+Expected '</', got 'text'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:11:49.549] Browser ERROR   ./src/app/components/Header.tsx:8:21
+Parsing ecmascript source code failed
+   6 |   return (
+   7 |     <header className="sticky top-0 w-full bg-transparent backdrop-blur-sm py-4 px-6 flex justify-between items-center z-50">
+>  8 |       <h1 className=text-xl font-semibold">Website</h1>
+     |                     ^^^^
+   9 |       <nav className="flex gap-6">
+  10 |         <a href="#" className="text-white hover:opacity-80 transition">Home</a>
+  11 |         <a href="#" className="text-white hover:opacity-80 transition">About</a>
+
+Expected '</', got 'text'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:11:52.549] Browser ERROR   ./src/app/components/Header.tsx:8:21
+Parsing ecmascript source code failed
+   6 |   return (
+   7 |     <header className="sticky top-0 w-full bg-transparent backdrop-blur-sm py-4 px-6 flex justify-between items-center z-50">
+>  8 |       <h1 className=text-xl font-semibold">Website</h1>
+     |                     ^^^^
+   9 |       <nav className="flex gap-6">
+  10 |         <a href="#" className= hover:opacity-80 transition">Home</a>
+  11 |         <a href="#" className="text-white hover:opacity-80 transition">About</a>
+
+Expected '</', got 'text'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:11:52.549] Browser ERROR   ./src/app/components/Header.tsx:8:21
+Parsing ecmascript source code failed
+   6 |   return (
+   7 |     <header className="sticky top-0 w-full bg-transparent backdrop-blur-sm py-4 px-6 flex justify-between items-center z-50">
+>  8 |       <h1 className=text-xl font-semibold">Website</h1>
+     |                     ^^^^
+   9 |       <nav className="flex gap-6">
+  10 |         <a href="#" className= hover:opacity-80 transition">Home</a>
+  11 |         <a href="#" className="text-white hover:opacity-80 transition">About</a>
+
+Expected '</', got 'text'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:11:53.048] Server  LOG      ✓ Compiled in 9ms
+[00:11:53.550] Browser ERROR   ./src/app/components/Header.tsx:10:32
+Parsing ecmascript source code failed
+   8 |       <h1 className="text-xl font-semibold">Website</h1>
+   9 |       <nav className="flex gap-6">
+> 10 |         <a href="#" className= hover:opacity-80 transition">Home</a>
+     |                                ^^^^^
+  11 |         <a href="#" className="text-white hover:opacity-80 transition">About</a>
+  12 |         <a href="#" className="text-white hover:opacity-80 transition">Contact</a>
+  13 |       </nav>
+
+Expected '</', got 'hover'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:11:53.551] Browser ERROR   ./src/app/components/Header.tsx:10:32
+Parsing ecmascript source code failed
+   8 |       <h1 className="text-xl font-semibold">Website</h1>
+   9 |       <nav className="flex gap-6">
+> 10 |         <a href="#" className= hover:opacity-80 transition">Home</a>
+     |                                ^^^^^
+  11 |         <a href="#" className="text-white hover:opacity-80 transition">About</a>
+  12 |         <a href="#" className="text-white hover:opacity-80 transition">Contact</a>
+  13 |       </nav>
+
+Expected '</', got 'hover'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:11:56.550] Browser ERROR   ./src/app/components/Header.tsx:10:32
+Parsing ecmascript source code failed
+   8 |       <h1 className="text-xl font-semibold">Website</h1>
+   9 |       <nav className="flex gap-6">
+> 10 |         <a href="#" className= hover:opacity-80 transition">Home</a>
+     |                                ^^^^^
+  11 |         <a href="#" className= hover:opacity-80 transition">About</a>
+  12 |         <a href="#" className="text-white hover:opacity-80 transition">Contact</a>
+  13 |       </nav>
+
+Expected '</', got 'hover'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:11:56.550] Browser ERROR   ./src/app/components/Header.tsx:10:32
+Parsing ecmascript source code failed
+   8 |       <h1 className="text-xl font-semibold">Website</h1>
+   9 |       <nav className="flex gap-6">
+> 10 |         <a href="#" className= hover:opacity-80 transition">Home</a>
+     |                                ^^^^^
+  11 |         <a href="#" className= hover:opacity-80 transition">About</a>
+  12 |         <a href="#" className="text-white hover:opacity-80 transition">Contact</a>
+  13 |       </nav>
+
+Expected '</', got 'hover'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:11:57.550] Browser ERROR   ./src/app/components/Header.tsx:10:32
+Parsing ecmascript source code failed
+   8 |       <h1 className="text-xl font-semibold">Website</h1>
+   9 |       <nav className="flex gap-6">
+> 10 |         <a href="#" className= hover:opacity-80 transition">Home</a>
+     |                                ^^^^^
+  11 |         <a href="#" className="text-white hover:opacity-80 transition">About</a>
+  12 |         <a href="#" className="text-white hover:opacity-80 transition">Contact</a>
+  13 |       </nav>
+
+Expected '</', got 'hover'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:11:57.550] Browser ERROR   ./src/app/components/Header.tsx:10:32
+Parsing ecmascript source code failed
+   8 |       <h1 className="text-xl font-semibold">Website</h1>
+   9 |       <nav className="flex gap-6">
+> 10 |         <a href="#" className= hover:opacity-80 transition">Home</a>
+     |                                ^^^^^
+  11 |         <a href="#" className="text-white hover:opacity-80 transition">About</a>
+  12 |         <a href="#" className="text-white hover:opacity-80 transition">Contact</a>
+  13 |       </nav>
+
+Expected '</', got 'hover'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:11:58.549] Browser ERROR   ./src/app/components/Header.tsx:10:32
+Parsing ecmascript source code failed
+   8 |       <h1 className="text-xl font-semibold">Website</h1>
+   9 |       <nav className="flex gap-6">
+> 10 |         <a href="#" className= hover:opacity-80 transition">Home</a>
+     |                                ^^^^^
+  11 |         <a href="#" className=" hover:opacity-80 transition">About</a>
+  12 |         <a href="#" className="text-white hover:opacity-80 transition">Contact</a>
+  13 |       </nav>
+
+Expected '</', got 'hover'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:11:58.549] Browser ERROR   ./src/app/components/Header.tsx:10:32
+Parsing ecmascript source code failed
+   8 |       <h1 className="text-xl font-semibold">Website</h1>
+   9 |       <nav className="flex gap-6">
+> 10 |         <a href="#" className= hover:opacity-80 transition">Home</a>
+     |                                ^^^^^
+  11 |         <a href="#" className=" hover:opacity-80 transition">About</a>
+  12 |         <a href="#" className="text-white hover:opacity-80 transition">Contact</a>
+  13 |       </nav>
+
+Expected '</', got 'hover'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:12:00.702] Browser ERROR   ./src/app/components/Header.tsx:10:32
+Parsing ecmascript source code failed
+   8 |       <h1 className="text-xl font-semibold">Website</h1>
+   9 |       <nav className="flex gap-6">
+> 10 |         <a href="#" className= hover:opacity-80 transition">Home</a>
+     |                                ^^^^^
+  11 |         <a href="#" className=" hover:opacity-80 transition">About</a>
+  12 |         <a href="#" className=" hover:opacity-80 transition">Contact</a>
+  13 |       </nav>
+
+Expected '</', got 'hover'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:12:01.553] Browser ERROR   ./src/app/components/Header.tsx:10:32
+Parsing ecmascript source code failed
+   8 |       <h1 className="text-xl font-semibold">Website</h1>
+   9 |       <nav className="flex gap-6">
+> 10 |         <a href="#" className= hover:opacity-80 transition">Home</a>
+     |                                ^^^^^
+  11 |         <a href="#" className=" hover:opacity-80 transition">About</a>
+  12 |         <a href="#" className=" hover:opacity-80 transition">Contact</a>
+  13 |       </nav>
+
+Expected '</', got 'hover'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Header.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Header.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:12:07.018] Server  LOG      ✓ Compiled in 11ms
+[00:12:07.284] Server  LOG      ✓ Compiled in 7ms
+[00:12:28.621] Server  LOG      ✓ Compiled in 8ms
+[00:12:40.145] Server  LOG      ✓ Compiled in 7ms
+[00:13:15.799] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.800] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.801] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.802] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.802] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.802] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.803] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.803] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.804] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.804] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.805] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.807] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.808] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.808] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.809] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.809] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.813] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.814] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.814] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.815] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.816] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.817] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.818] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.818] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.819] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.820] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.821] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.822] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.823] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.824] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.825] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.826] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.827] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.828] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.829] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.829] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.829] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.830] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.831] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.832] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.833] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.833] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.834] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.834] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.834] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.835] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.835] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.835] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.835] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.835] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.836] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.836] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.836] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.837] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.886] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.886] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.887] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.887] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.887] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.888] Server  ERROR    ⨯ ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:13:15.889] Server  LOG      ✓ Compiled in 18ms
+[00:13:16.550] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:13:16.551] Browser ERROR   ./src/app/page.tsx:5:1
+Module not found: Can't resolve './components/Header'
+  3 | import { useState } from "react";
+  4 | import ThemeSwitch from "./ThemeSwitch";
+> 5 | import Header from "./components/Header";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import Footer from "./components/Footer";
+  7 | import Post from "./components/Post";
+  8 |
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[00:13:23.466] Server  LOG      ✓ Compiled in 6ms
+[00:14:19.983] Server  LOG      ✓ Compiled in 7ms
+[00:14:28.776] Server  LOG      ✓ Compiled in 7ms
+[00:17:36.180] Server  LOG      ✓ Compiled in 10ms
+[00:17:41.275] Server  LOG      ✓ Compiled in 12ms
+[00:18:25.019] Server  LOG      ✓ Compiled in 17ms
+[00:18:27.981] Server  LOG      ✓ Compiled in 19ms
+[00:18:38.621] Server  LOG      ✓ Compiled in 22ms
+[00:19:16.372] Server  LOG      ✓ Compiled in 15ms
+[00:19:20.192] Server  LOG      ✓ Compiled in 15ms
+[00:19:30.047] Server  LOG      ✓ Compiled in 13ms
+[00:19:31.818] Server  LOG      ✓ Compiled in 8ms
+[00:20:23.042] Server  LOG      ✓ Compiled in 24ms
+[00:20:48.277] Server  LOG      ✓ Compiled in 13ms
+[00:20:48.549] Browser ERROR   ./src/app/page.tsx:29:1
+Parsing ecmascript source code failed
+  27 |     </main>
+  28 |   );
+> 29 | }
+     | ^
+  30 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:48.549] Browser ERROR   ./src/app/page.tsx:29:1
+Parsing ecmascript source code failed
+  27 |     </main>
+  28 |   );
+> 29 | }
+     | ^
+  30 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:49.555] Server  LOG      ✓ Compiled in 10ms
+[00:20:50.729] Server  LOG      ✓ Compiled in 11ms
+[00:20:51.550] Browser ERROR   ./src/app/page.tsx:29:1
+Parsing ecmascript source code failed
+  27 |     </main>
+  28 |   );
+> 29 | }
+     | ^
+  30 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:51.550] Browser ERROR   ./src/app/page.tsx:29:1
+Parsing ecmascript source code failed
+  27 |     </main>
+  28 |   );
+> 29 | }
+     | ^
+  30 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:20:56.178] Server  LOG      ✓ Compiled in 6ms
+[00:21:16.821] Server  LOG      ✓ Compiled in 19ms
+[00:21:18.617] Server  LOG      ✓ Compiled in 12ms
+[00:22:45.341] Server  LOG      ✓ Compiled in 12ms
+[00:22:52.260] Server  LOG      ✓ Compiled in 11ms
+[00:24:25.182] Server  LOG      ✓ Compiled in 33ms
+[00:24:48.435] Server  LOG      ✓ Compiled in 14ms
+[00:25:06.810] Server  LOG      ✓ Compiled in 17ms
+[00:25:14.608] Server  LOG      ✓ Compiled in 10ms
+[00:25:25.614] Server  LOG      ✓ Compiled in 14ms
+[00:25:39.086] Server  LOG      ✓ Compiled in 6ms
+[00:26:50.084] Server  LOG      ✓ Compiled in 20ms
+[00:27:05.613] Server  LOG      ✓ Compiled in 13ms
+[00:27:13.076] Server  LOG      ✓ Compiled in 13ms
+[00:27:14.930] Server  LOG      ✓ Compiled in 12ms
+[00:28:10.244] Server  LOG      ✓ Compiled in 7ms
+[00:29:11.075] Server  LOG      ✓ Compiled in 11ms
+[00:29:50.799] Server  LOG      ✓ Compiled in 10ms
+[00:30:02.779] Server  LOG      ✓ Compiled in 7ms
+[00:31:09.612] Server  LOG      ✓ Compiled in 13ms
+[00:31:23.995] Server  LOG      ✓ Compiled in 12ms
+[00:31:43.612] Server  LOG      ✓ Compiled in 11ms
+[00:31:51.245] Server  LOG      ✓ Compiled in 12ms
+[00:32:04.611] Server  LOG      ✓ Compiled in 6ms
+[00:32:14.585] Server  LOG      ✓ Compiled in 12ms
+[00:32:16.628] Server  LOG      ✓ Compiled in 21ms
+[00:32:22.631] Server  LOG      ✓ Compiled in 14ms
+[00:32:33.610] Server  LOG      ✓ Compiled in 11ms
+[00:32:41.009] Server  LOG      ✓ Compiled in 11ms
+[00:32:44.014] Server  LOG      ✓ Compiled in 10ms
+[00:32:51.760] Server  LOG      ✓ Compiled in 10ms
+[00:32:55.083] Server  LOG      ✓ Compiled in 11ms
+[00:32:56.731] Server  LOG      ✓ Compiled in 13ms
+[00:32:59.623] Server  LOG      ✓ Compiled in 21ms
+[00:33:03.088] Server  LOG      ✓ Compiled in 9ms
+[00:33:41.620] Server  LOG      ✓ Compiled in 15ms
+[00:33:44.611] Server  LOG      ✓ Compiled in 12ms
+[00:33:57.471] Server  LOG      ✓ Compiled in 9ms
+[00:34:03.618] Server  LOG      ✓ Compiled in 19ms
+[00:34:15.311] Server  LOG      ✓ Compiled in 10ms
+[00:34:19.617] Server  LOG      ✓ Compiled in 18ms
+[00:34:24.373] Server  LOG      ✓ Compiled in 8ms
+[00:34:43.618] Server  LOG      ✓ Compiled in 17ms
+[00:34:56.618] Server  LOG      ✓ Compiled in 24ms
+[00:35:01.861] Server  LOG      ✓ Compiled in 10ms
+[00:35:03.622] Server  LOG      ✓ Compiled in 9ms
+[00:35:09.610] Server  LOG      ✓ Compiled in 10ms
+[00:35:50.013] Server  LOG      ✓ Compiled in 13ms
