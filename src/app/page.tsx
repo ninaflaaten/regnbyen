@@ -14,6 +14,14 @@ export default function Home() {
         <NavBar />
       </div>
 
+      <div className="text-5xl w-[1000] -ml-5 font-serif pb-10">
+        Raincoat Realities: The Honest Truth About Living in a Perpetually Damp City
+      </div>
+
+       <div className="text-xl w-[1000] -ml-5 font-serif">
+        Nov 16 • By Nina Flaaten
+      </div>
+
       <Post />
       <Post />
       <Post />
