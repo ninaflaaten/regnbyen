@@ -62,3 +62,747 @@
 [00:29:08.277] Server  LOG      ✓ Compiled in 9ms
 [00:29:13.305] Server  LOG      ✓ Compiled in 13ms
 [00:29:34.306] Server  LOG      ✓ Compiled in 14ms
+[00:31:16.604] Server  LOG      ✓ Compiled in 22ms
+[00:31:33.381] Server  LOG      ✓ Compiled in 8ms
+[00:31:35.618] Server  LOG      ✓ Compiled in 27ms
+[00:31:36.241] Browser ERROR   uncaughtError: ReferenceError: Gallery is not defined
+[00:31:36.242] Browser ERROR   uncaughtError: ReferenceError: Gallery is not defined
+[00:31:40.439] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:31:40.439] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:31:40.489] Server  LOG      ✓ Compiled in 13ms
+[00:31:40.674] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:31:40.787] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:31:40.863] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:40.879] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:41.243] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[00:31:41.243] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[00:31:52.683] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:31:52.684] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:31:52.730] Server  LOG      ✓ Compiled in 13ms
+[00:31:52.839] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:52.849] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:31:53.240] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                    <Home params={Promise} searchParams={Promise}>
+                      <main className="min-h-scre...">
+                        <div className="sticky top...">
+                          <NavBar>
+                            <header className="sticky top...">
+                              <span className="text-sm">
++                               16.11.2025
+-                               11/16/2025
+                              ...
+                        ...
+                ...
+              ...
+
+[00:31:53.241] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                    <Home params={Promise} searchParams={Promise}>
+                      <main className="min-h-scre...">
+                        <div className="sticky top...">
+                          <NavBar>
+                            <header className="sticky top...">
+                              <span className="text-sm">
++                               16.11.2025
+-                               11/16/2025
+                              ...
+                        ...
+                ...
+              ...
+
+[00:31:59.382] Server  LOG      ✓ Compiled in 15ms
+[00:32:00.241] Browser ERROR   ./src/app/components/Gallery.tsx:2:12
+Parsing ecmascript source code failed
+  1 | export default function Gallery() {
+> 2 |     return (
+    |            ^
+> 3 |         
+    | ^^^^^^^^
+> 4 |     )
+    | ^^^^^^
+  5 | }
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Gallery.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Gallery.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:32:00.241] Browser ERROR   ./src/app/components/Gallery.tsx:2:12
+Parsing ecmascript source code failed
+  1 | export default function Gallery() {
+> 2 |     return (
+    |            ^
+> 3 |         
+    | ^^^^^^^^
+> 4 |     )
+    | ^^^^^^
+  5 | }
+
+Parenthesized expression cannot be empty
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Gallery.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Gallery.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:32:06.240] Browser ERROR   uncaughtError: ReferenceError: Post is not defined
+[00:32:06.241] Browser ERROR   uncaughtError: ReferenceError: Post is not defined
+[00:32:14.538] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:32:14.538] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:32:14.603] Server  ERROR   Functions are not valid as a React child. This may happen if you return Post instead of <Post /> from render. Or maybe you meant to call this function rather than return it.
+[00:32:14.606] Server  LOG      ✓ Compiled in 15ms
+[00:32:14.622] Server  ERROR   Functions are not valid as a React child. This may happen if you return Post instead of <Post /> from render. Or maybe you meant to call this function rather than return it.
+[00:32:14.682] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:14.695] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:32:15.242] Browser ERROR   Functions are not valid as a React child. This may happen if you return %s instead of <%s /> from render. Or maybe you meant to call this function rather than return it.
+  <%s>{%s}</%s> Post Post Gallery Post Gallery
+[00:32:15.242] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                    <Home params={Promise} searchParams={Promise}>
+                      <main className="min-h-scre...">
+                        <div className="sticky top...">
+                          <NavBar>
+                            <header className="sticky top...">
+                              <span className="text-sm">
++                               16.11.2025
+-                               11/16/2025
+                              ...
+                        ...
+                ...
+              ...
+
+[00:32:15.242] Browser ERROR   Functions are not valid as a React child. This may happen if you return %s instead of <%s /> from render. Or maybe you meant to call this function rather than return it.
+  <%s>{%s}</%s> Post Post Gallery Post Gallery
+[00:32:15.242] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                    <Home params={Promise} searchParams={Promise}>
+                      <main className="min-h-scre...">
+                        <div className="sticky top...">
+                          <NavBar>
+                            <header className="sticky top...">
+                              <span className="text-sm">
++                               16.11.2025
+-                               11/16/2025
+                              ...
+                        ...
+                ...
+              ...
+
+[00:32:37.141] Server  LOG      ✓ Compiled in 11ms
+[00:32:38.703] Server  LOG      ✓ Compiled in 7ms
+[00:32:54.835] Server  LOG      ✓ Compiled in 13ms
+[00:33:04.545] Server  LOG      ✓ Compiled in 12ms
+[00:33:06.007] Server  LOG      ✓ Compiled in 7ms
+[00:33:08.826] Server  LOG      ✓ Compiled in 11ms
+[00:33:11.767] Server  LOG      ✓ Compiled in 10ms
+[00:33:13.305] Server  LOG      ✓ Compiled in 13ms
+[00:33:24.669] Server  LOG      ✓ Compiled in 9ms
+[00:33:26.714] Server  LOG      ✓ Compiled in 12ms
+[00:33:57.405] Server  LOG      ✓ Compiled in 27ms
+[00:34:12.284] Server  LOG      ✓ Compiled in 6ms
+[00:34:16.750] Server  LOG      ✓ Compiled in 13ms
+[00:34:29.305] Server  LOG      ✓ Compiled in 14ms
+[00:34:31.563] Server  LOG      ✓ Compiled in 9ms
+[00:34:39.457] Server  LOG      ✓ Compiled in 10ms
+[00:34:43.187] Server  LOG      ✓ Compiled in 13ms
+[00:34:43.409] Server  LOG      ✓ Compiled in 6ms
+[00:35:34.306] Server  LOG      ✓ Compiled in 13ms
+[00:35:44.305] Server  LOG      ✓ Compiled in 14ms
+[00:35:52.306] Server  LOG      ✓ Compiled in 14ms
+[00:35:55.302] Server  LOG      ✓ Compiled in 14ms
+[00:35:58.468] Server  LOG      ✓ Compiled in 7ms
+[00:36:04.314] Server  LOG      ✓ Compiled in 23ms
+[00:36:19.312] Server  LOG      ✓ Compiled in 20ms
+[00:36:22.315] Server  LOG      ✓ Compiled in 24ms
+[00:36:29.127] Server  LOG      ✓ Compiled in 13ms
+[00:36:47.307] Server  LOG      ✓ Compiled in 14ms
+[00:36:52.307] Server  LOG      ✓ Compiled in 15ms
+[00:36:56.497] Server  LOG      ✓ Compiled in 9ms
+[00:36:58.305] Server  LOG      ✓ Compiled in 14ms
+[00:37:17.766] Server  LOG      ✓ Compiled in 12ms
+[00:37:18.241] Browser ERROR   ./src/app/components/Gallery.tsx:10:3
+Parsing ecmascript source code failed
+   8 |
+   9 |     <Post
+> 10 |   title="Regnet som aldri slutter"
+     |   ^^^^^
+  11 |   text="Bergen har sine historier, og regnet er en del av hver og én av dem."
+  12 |   image="https://..."
+  13 |   caption="En paraply alene i Strandgaten"
+
+Expected ',', got 'title'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Gallery.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Gallery.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:37:18.242] Browser ERROR   ./src/app/components/Gallery.tsx:10:3
+Parsing ecmascript source code failed
+   8 |
+   9 |     <Post
+> 10 |   title="Regnet som aldri slutter"
+     |   ^^^^^
+  11 |   text="Bergen har sine historier, og regnet er en del av hver og én av dem."
+  12 |   image="https://..."
+  13 |   caption="En paraply alene i Strandgaten"
+
+Expected ',', got 'title'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Gallery.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Gallery.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:37:27.489] Server  LOG      ✓ Compiled in 8ms
+[00:37:28.241] Browser ERROR   ./src/app/components/Gallery.tsx:10:3
+Parsing ecmascript source code failed
+   8 |
+   9 |     <Post
+> 10 |   title="Regnet som aldri slutter"
+     |   ^^^^^
+  11 |   text="Bergen har sine historier, og regnet er en del av hver og én av dem."
+  12 |   image="https://..."
+  13 |   caption="En paraply alene i Strandgaten"
+
+Expected ',', got 'title'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Gallery.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Gallery.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:37:28.241] Browser ERROR   ./src/app/components/Gallery.tsx:10:3
+Parsing ecmascript source code failed
+   8 |
+   9 |     <Post
+> 10 |   title="Regnet som aldri slutter"
+     |   ^^^^^
+  11 |   text="Bergen har sine historier, og regnet er en del av hver og én av dem."
+  12 |   image="https://..."
+  13 |   caption="En paraply alene i Strandgaten"
+
+Expected ',', got 'title'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Gallery.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Gallery.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:38:05.885] Server  LOG      ✓ Compiled in 15ms
+[00:38:38.317] Server  LOG      ✓ Compiled in 14ms
+[00:38:54.742] Server  LOG      ✓ Compiled in 12ms
+[00:38:56.306] Server  LOG      ✓ Compiled in 14ms
+[00:39:18.309] Server  LOG      ✓ Compiled in 15ms
+[00:39:35.302] Server  LOG      ✓ Compiled in 15ms
+[00:39:45.693] Server  LOG      ✓ Compiled in 15ms
+[00:39:48.490] Server  LOG      ✓ Compiled in 7ms
+[00:39:50.554] Server  LOG      ✓ Compiled in 11ms
+[00:39:51.681] Server  LOG      ✓ Compiled in 13ms
+[00:39:52.738] Server  LOG      ✓ Compiled in 11ms
+[00:40:33.273] Server  LOG      ✓ Compiled in 15ms
+[00:41:46.684] Server  LOG      ✓ Compiled in 19ms
+[00:41:56.470] Server  LOG      ✓ Compiled in 18ms
+[00:43:41.040] Server  LOG      ✓ Compiled in 23ms
+[00:43:41.229] Server  LOG      ✓ Compiled in 21ms
+[00:43:48.882] Server  LOG      ✓ Compiled in 13ms
+[00:43:51.306] Server  LOG      ✓ Compiled in 14ms
+[00:44:00.300] Server  LOG      ✓ Compiled in 18ms
+[00:44:32.198] Server  LOG      ✓ Compiled in 13ms
+[00:44:35.348] Server  LOG      ✓ Compiled in 9ms
+[00:44:42.306] Server  LOG      ✓ Compiled in 14ms
+[00:45:09.154] Server  LOG      ✓ Compiled in 9ms
+[00:45:57.320] Server  LOG      ✓ Compiled in 21ms
+[00:46:19.465] Server  LOG      ✓ Compiled in 15ms
+[00:46:24.306] Server  LOG      ✓ Compiled in 15ms
+[00:46:24.939] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:27.315] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:27.422] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                    <Home params={Promise} searchParams={Promise}>
+                      <main className="min-h-scre...">
+                        <div className="sticky top...">
+                          <NavBar>
+                            <header className="sticky top...">
+                              <span className="text-sm">
++                               16.11.2025
+-                               11/16/2025
+                              ...
+                        ...
+                ...
+              ...
+
+[00:47:15.156] Server  LOG      ✓ Compiled in 17ms
+[00:47:16.240] Browser ERROR   ./src/app/components/Footer.tsx:21:1
+Parsing ecmascript source code failed
+  19 |     </footer>
+  20 |   );
+> 21 | }
+     | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Footer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Footer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:47:16.240] Browser ERROR   ./src/app/components/Footer.tsx:21:1
+Parsing ecmascript source code failed
+  19 |     </footer>
+  20 |   );
+> 21 | }
+     | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Footer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Footer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:47:18.240] Browser ERROR   ./src/app/components/Footer.tsx:21:1
+Parsing ecmascript source code failed
+  19 |     </footer>
+  20 |   );
+> 21 | }
+     | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Footer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Footer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:47:18.241] Browser ERROR   ./src/app/components/Footer.tsx:21:1
+Parsing ecmascript source code failed
+  19 |     </footer>
+  20 |   );
+> 21 | }
+     | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Footer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Footer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:47:31.058] Server  LOG      ✓ Compiled in 9ms
+[00:47:32.795] Server  LOG      ✓ Compiled in 7ms
+[00:47:36.877] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:39.744] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:39.744] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                    <Home params={Promise} searchParams={Promise}>
+                      <main className="min-h-scre...">
+                        <div className="sticky top...">
+                          <NavBar>
+                            <header className="sticky top...">
+                              <span className="text-sm">
++                               16.11.2025
+-                               11/16/2025
+                              ...
+                        ...
+                ...
+              ...
+
+[00:47:49.944] Server  LOG      ✓ Compiled in 15ms
+[00:47:59.330] Server  LOG      ✓ Compiled in 17ms
+[00:48:00.241] Browser ERROR   ./src/app/components/Footer.tsx:8:13
+Parsing ecmascript source code failed
+   6 |       
+   7 |     </section>
+>  8 |     <footer className="relative flex w-full overflow-hidden backdrop-blur-md mt-16 h-44">
+     |             ^^^^^^^^^
+   9 |       <p>
+  10 |         Footer
+  11 |       </p>
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Footer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Footer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:48:00.242] Browser ERROR   ./src/app/components/Footer.tsx:8:13
+Parsing ecmascript source code failed
+   6 |       
+   7 |     </section>
+>  8 |     <footer className="relative flex w-full overflow-hidden backdrop-blur-md mt-16 h-44">
+     |             ^^^^^^^^^
+   9 |       <p>
+  10 |         Footer
+  11 |       </p>
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Footer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Footer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:48:06.240] Browser ERROR   ./src/app/components/Footer.tsx:7:24
+Parsing ecmascript source code failed
+   5 |     <section>
+   6 |
+>  7 |     </section> <footer className="relative flex w-full overflow-hidden backdrop-blur-md mt-16 h-44">
+     |                        ^^^^^^^^^
+   8 |       <p>
+   9 |         Footer
+  10 |       </p>
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Footer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Footer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:48:06.241] Browser ERROR   ./src/app/components/Footer.tsx:7:24
+Parsing ecmascript source code failed
+   5 |     <section>
+   6 |
+>  7 |     </section> <footer className="relative flex w-full overflow-hidden backdrop-blur-md mt-16 h-44">
+     |                        ^^^^^^^^^
+   8 |       <p>
+   9 |         Footer
+  10 |       </p>
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Footer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Footer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:48:07.240] Browser ERROR   ./src/app/components/Footer.tsx:8:13
+Parsing ecmascript source code failed
+   6 |       
+   7 |     </section>
+>  8 |     <footer className="relative flex w-full overflow-hidden backdrop-blur-md mt-16 h-44">
+     |             ^^^^^^^^^
+   9 |       <p>
+  10 |         Footer
+  11 |       </p>
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Footer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Footer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:48:07.241] Browser ERROR   ./src/app/components/Footer.tsx:8:13
+Parsing ecmascript source code failed
+   6 |       
+   7 |     </section>
+>  8 |     <footer className="relative flex w-full overflow-hidden backdrop-blur-md mt-16 h-44">
+     |             ^^^^^^^^^
+   9 |       <p>
+  10 |         Footer
+  11 |       </p>
+
+Expected ',', got 'className'
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Footer.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Footer.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:48:13.464] Server  LOG      ✓ Compiled in 14ms
+[00:48:15.535] Server  LOG      ✓ Compiled in 11ms
+[00:48:17.347] Server  LOG      ✓ Compiled in 7ms
+[00:48:20.911] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:24.067] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:48:24.172] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                    <Home params={Promise} searchParams={Promise}>
+                      <main className="min-h-scre...">
+                        <div className="sticky top...">
+                          <NavBar>
+                            <header className="sticky top...">
+                              <span className="text-sm">
++                               16.11.2025
+-                               11/16/2025
+                              ...
+                        ...
+                ...
+              ...
+
+[00:49:20.328] Server  LOG      ✓ Compiled in 27ms
+[00:49:30.463] Server  LOG      ✓ Compiled in 12ms
+[00:49:36.183] Server  LOG      ✓ Compiled in 14ms
+[00:49:41.794] Server  LOG      ✓ Compiled in 15ms
+[00:49:52.305] Server  LOG      ✓ Compiled in 14ms
+[00:51:21.847] Server  LOG      ✓ Compiled in 22ms
+[00:51:31.851] Server  LOG      ✓ Compiled in 11ms
+[00:51:33.693] Server  LOG      ✓ Compiled in 17ms
+[00:51:38.015] Server  LOG      ✓ Compiled in 7ms
+[00:51:40.107] Server  LOG      ✓ Compiled in 17ms
+[00:51:48.809] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:51:48.927] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <LoadingBoundary name="/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+                <SegmentViewNode type="page" pagePath="page.tsx">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                    <Home params={Promise} searchParams={Promise}>
+                      <main className="min-h-scre...">
+                        <div className="sticky top...">
+                          <NavBar>
+                            <header className="sticky top...">
+                              <span className="text-sm">
++                               16.11.2025
+-                               11/16/2025
+                              ...
+                        ...
+                ...
+              ...
+
+[00:52:11.975] Server  LOG      ✓ Compiled in 37ms

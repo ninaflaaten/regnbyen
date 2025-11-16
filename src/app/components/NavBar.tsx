@@ -20,11 +20,11 @@ export default function NavBar() {
       </h1>
 
       <nav className="flex items-center gap-6 ml-auto font-serif">
-        <a href="#" className="hover:underline">
-          Home
-        </a>
-        <a href="#" className="hover:underline">
+        <a href="#Footer" className="hover:underline">
           About
+        </a>
+        <a href="https://www.google.com/search?q=go+to+bergen" target="_blank" rel="noopener noreferrer" className="hover:underline">
+          Bergen
         </a>
         <a href="#" className="hover:underline">
           Contact

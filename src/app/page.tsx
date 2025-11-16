@@ -3,7 +3,7 @@
 import { useState } from "react";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import Post from "./components/Post";
+import Gallery from "./components/Gallery";
 
 export default function Home() {
   const [opened, setOpened] = useState(false);
@@ -14,28 +14,17 @@ export default function Home() {
         <NavBar />
       </div>
 
-      <div className="text-5xl w-[1000] -ml-5 font-serif pb-10">
-        Raincoat Realities: The Honest Truth About Living in a Perpetually Damp City
+      <div className="text-5xl w-[1000] font-serif pb-10">
+        Raincoat Realities: The Honest Truth About Living in a Perpetually Damp
+        City
       </div>
 
-       <div className="text-xl w-[1000] -ml-5 font-serif">
+      <div className="text-xl w-[1000] font-serif">
         Nov 16 • By Nina Flaaten
       </div>
 
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
+      <Gallery />
 
-      {/* Ønskeliste */}
-      <section className="flex flex-col gap-6 px-4 sm:px-6 md:px-8 mt-6 w-full lg:w-[800px] mx-auto">
-        {" "}
-      </section>
       <Footer />
     </main>
   );
