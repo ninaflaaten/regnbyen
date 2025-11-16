@@ -11,7 +11,7 @@ export default function Post({ title, text, image, caption }: PostProps) {
       <h2 className="text-3xl font-bold mb-4">{title}</h2>
       <p className="text-lg mb-6">{text}</p>
       <img src={image} alt={title} className="w-full" />
-      {caption && <p className="text-lg text-gray-600 mt-2">{caption}</p>}
+      {caption && <p className="text-lg mt-2">{caption}</p>}
     </div>
   );
 }
