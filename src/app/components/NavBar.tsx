@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import ThemeSwitch from "../ThemeSwitch";
 import { getTodayDate } from "./Date";
 import { Playfair_Display } from "next/font/google";
@@ -19,11 +20,23 @@ export default function NavBar() {
         Bergen
       </h1>
 
+      <Image
+        src="/logo.png"
+        width={40}
+        height={40}
+        alt="umbrella"
+        className="navbar-logo"
+      />
       <nav className="flex items-center gap-6 ml-auto font-serif">
         <a href="#Footer" className="hover:underline">
           About
         </a>
-        <a href="https://www.google.com/search?q=go+to+bergen" target="_blank" rel="noopener noreferrer" className="hover:underline">
+        <a
+          href="https://www.google.com/search?q=go+to+bergen"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:underline"
+        >
           Bergen
         </a>
         <a href="#" className="hover:underline">
