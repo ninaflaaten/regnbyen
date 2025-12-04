@@ -105,3 +105,71 @@ Import traces:
 [00:33:32.106] Server  LOG      ✓ Compiled in 24ms
 [00:34:30.175] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:34:30.283] Browser WARN    Image with src "data:image/svg+xml;base64,data:image/svg+xml;base64,PHN2ZyBzdHlsZT0iZmlsbDpub25lOyIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDR2MiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDE4djIiLz48cGF0aCBzdHJva2U9IiMwMDAiIGQ9Ik0zLjUgMy41TDQuOSA1Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRo+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDIySDEyIi8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNNSA0LjkgMy41IDMuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE5LjEgNC45IDIwLjUgMy41Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMiAxMmgydiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDEyaDJ2MiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjQiIHN0cm9rZT0iIzAwMCIvPjwvc3ZnPg==" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:40:52.774] Server  LOG      ✓ Compiled in 26ms
+[00:41:52.844] Server  LOG      ✓ Compiled in 21ms
+[00:41:53.693] Browser ERROR   ./src/app/components/Gallery.tsx:21:7
+Parsing ecmascript source code failed
+  19 |       
+  20 |
+> 21 |       <Post
+     |       ^
+  22 |         title="Fløyen and the City Below"
+  23 |         text="Whether you're climbing Stoltzekleiven or taking the Fløibanen funicular, the journey to Fløyen is as much a part of Bergen's identity as the view from the top. Up here, the city looks like a painting — crooked rooftops, scattered boats, and the endless embrace of mountains and sea. But Fløyen is not just a lookout point. It's where Bergen breathes, where locals escape, tiny trolls hide under roots, and the quiet forest trails offer a break from the rhythm of rain and cobblestone."
+  24 |         image="https://images.unsplash.com/photo-1607891891983-f0145aa93e7b?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./src/app/components/Gallery.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/components/Gallery.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+[00:41:57.704] Server  LOG      ✓ Compiled in 12ms
+[00:42:04.227] Server  LOG      ✓ Compiled in 10ms
+[00:42:04.693] Browser ERROR   uncaughtError: TypeError: Constructor Map requires 'new'
+[00:42:12.265] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:42:12.332] Server  LOG      ✓ Compiled in 20ms
+[00:42:12.457] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:12.565] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/bergen-map.png" "received" null
+[00:42:12.696] Browser WARN    Image with src "data:image/svg+xml;base64,data:image/svg+xml;base64,PHN2ZyBzdHlsZT0iZmlsbDpub25lOyIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDR2MiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDE4djIiLz48cGF0aCBzdHJva2U9IiMwMDAiIGQ9Ik0zLjUgMy41TDQuOSA1Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRo+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDIySDEyIi8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNNSA0LjkgMy41IDMuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE5LjEgNC45IDIwLjUgMy41Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMiAxMmgydiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDEyaDJ2MiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjQiIHN0cm9rZT0iIzAwMCIvPjwvc3ZnPg==" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:45:04.774] Server  LOG      ✓ Compiled in 13ms
+[00:45:05.694] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Gallery`.
+[00:47:46.656] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:47:46.710] Server  LOG      ✓ Compiled in 19ms
+[00:47:46.827] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:47:47.695] Browser WARN    Image with src "data:image/svg+xml;base64,data:image/svg+xml;base64,PHN2ZyBzdHlsZT0iZmlsbDpub25lOyIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDR2MiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDE4djIiLz48cGF0aCBzdHJva2U9IiMwMDAiIGQ9Ik0zLjUgMy41TDQuOSA1Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRo+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDIySDEyIi8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNNSA0LjkgMy41IDMuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE5LjEgNC45IDIwLjUgMy41Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMiAxMmgydiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDEyaDJ2MiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjQiIHN0cm9rZT0iIzAwMCIvPjwvc3ZnPg==" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:51:25.193] Server  LOG      ✓ Compiled in 9ms
+[00:53:50.902] Server  LOG      ✓ Compiled in 17ms
+[00:54:03.084] Server  LOG      ✓ Compiled in 25ms
+[00:57:33.968] Server  LOG      ✓ Compiled in 12ms
+[00:58:03.715] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:03.826] Browser WARN    Image with src "data:image/svg+xml;base64,data:image/svg+xml;base64,PHN2ZyBzdHlsZT0iZmlsbDpub25lOyIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDR2MiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDE4djIiLz48cGF0aCBzdHJva2U9IiMwMDAiIGQ9Ik0zLjUgMy41TDQuOSA1Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRo+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDIySDEyIi8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNNSA0LjkgMy41IDMuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE5LjEgNC45IDIwLjUgMy41Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMiAxMmgydiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDEyaDJ2MiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjQiIHN0cm9rZT0iIzAwMCIvPjwvc3ZnPg==" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:58:13.860] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:13.860] Browser WARN    Image with src "data:image/svg+xml;base64,data:image/svg+xml;base64,PHN2ZyBzdHlsZT0iZmlsbDpub25lOyIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDR2MiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDE4djIiLz48cGF0aCBzdHJva2U9IiMwMDAiIGQ9Ik0zLjUgMy41TDQuOSA1Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRo+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDIySDEyIi8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNNSA0LjkgMy41IDMuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE5LjEgNC45IDIwLjUgMy41Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMiAxMmgydiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDEyaDJ2MiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjQiIHN0cm9rZT0iIzAwMCIvPjwvc3ZnPg==" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:59:15.807] Server  LOG      ✓ Compiled in 31ms
+[00:59:16.694] Browser ERROR   uncaughtError: ReferenceError: OSM_EMBED is not defined
+[00:59:24.614] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:59:24.695] Server  LOG      ✓ Compiled in 14ms
+[00:59:24.770] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/map.png" "received" null
+[00:59:24.812] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:25.692] Browser WARN    Image with src "data:image/svg+xml;base64,data:image/svg+xml;base64,PHN2ZyBzdHlsZT0iZmlsbDpub25lOyIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDR2MiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDE4djIiLz48cGF0aCBzdHJva2U9IiMwMDAiIGQ9Ik0zLjUgMy41TDQuOSA1Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRo+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDIySDEyIi8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNNSA0LjkgMy41IDMuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE5LjEgNC45IDIwLjUgMy41Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMiAxMmgydiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDEyaDJ2MiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjQiIHN0cm9rZT0iIzAwMCIvPjwvc3ZnPg==" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:01:46.146] Server  LOG      ✓ Compiled in 25ms
+[01:03:54.359] Server  LOG      ✓ Compiled in 11ms
+[01:04:12.426] Server  LOG      ✓ Compiled in 29ms
+[01:04:12.693] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Gallery`.
+[01:04:26.936] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:04:27.009] Server  LOG      ✓ Compiled in 25ms
+[01:04:27.043] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:04:27.113] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:27.169] Server  LOG      ✓ Compiled in 0ms
+[01:04:27.696] Browser WARN    Image with src "data:image/svg+xml;base64,data:image/svg+xml;base64,PHN2ZyBzdHlsZT0iZmlsbDpub25lOyIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDR2MiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTEyIDE4djIiLz48cGF0aCBzdHJva2U9IiMwMDAiIGQ9Ik0zLjUgMy41TDQuOSA1Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRo+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMTkuMSAxOS4xTDIwLjUgMjAuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTIgMTJINCIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDIySDEyIi8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNNSA0LjkgMy41IDMuNSIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE5LjEgNC45IDIwLjUgMy41Ii8+PHBhdGggc3Ryb2tlPSIjMDAwIiBkPSJNMiAxMmgydiIvPjxwYXRoIHN0cm9rZT0iIzAwMCIgZD0iTTE4IDEyaDJ2MiIvPjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjQiIHN0cm9rZT0iIzAwMCIvPjwvc3ZnPg==" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:04:32.015] Server  LOG      ✓ Compiled in 10ms
